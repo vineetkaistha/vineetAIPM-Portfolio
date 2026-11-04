@@ -38,10 +38,9 @@ Before presenting this repository as a finished portfolio:
 
 ## Git and publishing
 
-Git is initialized on the `main` branch. The portfolio repository is
-[`vineetkaistha/vineetAIPM-Portfolio`](https://github.com/vineetkaistha/vineetAIPM-Portfolio).
-The `read.me` file contains the portfolio setup guide; this `README.md` is the
-GitHub landing page and project index.
+Git is initialized on the `main` branch, with `origin` configured for the
+portfolio repository. The `read.me` file contains the portfolio setup guide;
+this `README.md` is the GitHub landing page and project index.
 
 To check the configured remote and publish committed changes:
 
