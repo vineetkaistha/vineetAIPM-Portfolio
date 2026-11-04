@@ -1,41 +1,62 @@
-# Memory Game
+# AI Product Management Portfolio
 
-A responsive and accessible Memory (Concentration) card game built with HTML, CSS, and JavaScript.
+This repository is being prepared as an AI Product Management portfolio. It is
+currently a collection of small browser-game projects and product documents,
+not a completed portfolio website. The games do not use AI.
 
-## Features
+## Start here
 
-- 4x4 and 6x6 grid options
-- Smooth card flip animations
-- Timer and moves counter
-- Star rating system
-- Light and dark themes, with saved preference and system theme detection
-- Local storage for best scores
-- Keyboard controls for accessibility
-- Responsive design for all devices
-- No external dependencies
+- [`context.md`](./context.md) — portfolio goals, repository context, case-study
+  guidance, and evidence boundaries.
+- [`read.me`](./read.me) — portfolio setup guide and readiness checklist.
 
-## How to Play
+## Current projects
 
-1. Open `memory-game.html` in a web browser
-2. Click or use keyboard (Tab + Enter/Space) to flip cards
-3. Find matching pairs to win
-4. Try to complete the game with as few moves as possible
-5. Switch between 4x4 and 6x6 grids using the buttons
+| Project | Description | Product brief |
+| --- | --- | --- |
+| Memory Game | Responsive card-matching game with grid sizes, scores, keyboard support, and light/dark themes. | [`PRD_dark_theme.md`](./PRD_dark_theme.md) |
+| Snake | Standalone Snake game with keyboard and touch controls, pause/resume, scoring, and responsive layout. | [`PRD_snake.md`](./PRD_snake.md) |
 
-## Technical Details
+Open [`memory-game.html`](./memory-game.html) or
+[`snake-game.html`](./snake-game.html) directly in a modern browser to play.
+Both games are built with HTML, CSS, and JavaScript and require no dependencies.
 
-- Pure HTML, CSS, and JavaScript implementation
-- No external libraries or dependencies
-- Fully responsive design using CSS Grid
-- Accessible with ARIA attributes and keyboard controls
-- Local storage for persistent high scores and theme preference
+## Portfolio readiness
 
-## Development
+Before presenting this repository as a finished portfolio:
 
-1. Clone the repository
-2. Open `memory-game.html` in a web browser
-3. Or serve using a local HTTP server:
-   ```bash
-   python3 -m http.server 8000
-   ```
-4. Visit `http://localhost:8000/memory-game.html`
+- Confirm target roles and add an owner-approved professional introduction.
+- Select projects you are authorized to discuss and document your own
+  contribution.
+- Support outcome claims with verified evidence; do not invent metrics,
+  research, or AI experience.
+- Clearly label self-directed, hypothetical, prototype, and production work.
+- Review privacy, accessibility, mobile usability, and links before publishing.
+
+## Git and publishing
+
+Git is already initialized on the `main` branch. The current `origin` points to
+the existing Memory Game repository, so do not push portfolio changes there
+unless that is the repository you intend to use.
+
+When the portfolio is ready, create or select its GitHub repository, then set
+and verify the matching remote before pushing:
+
+```powershell
+git remote set-url origin https://github.com/<account>/<portfolio-repository>.git
+git remote -v
+git status
+git push -u origin main
+```
+
+The `.gitignore` excludes common local editor/OS files, build output, logs, and
+local environment or credential files. Never commit passwords, tokens, private
+keys, or real `.env` files.
+
+## Privacy note
+
+Current project files were reviewed for personal contact details and
+credentials. Git commit history has separate author metadata; changing or
+removing that metadata requires rewriting history and can affect the existing
+remote. Keep the existing history unless you intentionally choose a clean
+portfolio repository or approve a history rewrite.
