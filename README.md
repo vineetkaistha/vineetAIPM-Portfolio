@@ -8,6 +8,7 @@ A responsive and accessible Memory (Concentration) card game built with HTML, CS
 - Smooth card flip animations
 - Timer and moves counter
 - Star rating system
+- Light and dark themes, with saved preference and system theme detection
 - Local storage for best scores
 - Keyboard controls for accessibility
 - Responsive design for all devices
@@ -27,7 +28,7 @@ A responsive and accessible Memory (Concentration) card game built with HTML, CS
 - No external libraries or dependencies
 - Fully responsive design using CSS Grid
 - Accessible with ARIA attributes and keyboard controls
-- Local storage for persistent high scores
+- Local storage for persistent high scores and theme preference
 
 ## Development
 
