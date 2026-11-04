@@ -16,10 +16,13 @@ not a completed portfolio website. The games do not use AI.
 | --- | --- | --- |
 | Memory Game | Responsive card-matching game with grid sizes, scores, keyboard support, and light/dark themes. | [`PRD_dark_theme.md`](./PRD_dark_theme.md) |
 | Snake | Standalone Snake game with keyboard and touch controls, pause/resume, scoring, and responsive layout. | [`PRD_snake.md`](./PRD_snake.md) |
+| Rock, Paper, Scissors | Accessible, responsive, first-to-three match against the computer. | [`PRD_rock_paper_scissors.md`](./PRD_rock_paper_scissors.md) |
 
-Open [`memory-game.html`](./memory-game.html) or
-[`snake-game.html`](./snake-game.html) directly in a modern browser to play.
-Both games are built with HTML, CSS, and JavaScript and require no dependencies.
+Open [`memory-game.html`](./memory-game.html),
+[`snake-game.html`](./snake-game.html), or
+[`rock-paper-scissors.html`](./rock-paper-scissors.html) directly in a modern
+browser to play. The games are built with HTML, CSS, and JavaScript and require
+no dependencies.
 
 ## Portfolio readiness
 
@@ -35,15 +38,14 @@ Before presenting this repository as a finished portfolio:
 
 ## Git and publishing
 
-Git is already initialized on the `main` branch. The current `origin` points to
-the existing Memory Game repository, so do not push portfolio changes there
-unless that is the repository you intend to use.
+Git is initialized on the `main` branch. The portfolio repository is
+[`vineetkaistha/vineetAIPM-Portfolio`](https://github.com/vineetkaistha/vineetAIPM-Portfolio).
+The `read.me` file contains the portfolio setup guide; this `README.md` is the
+GitHub landing page and project index.
 
-When the portfolio is ready, create or select its GitHub repository, then set
-and verify the matching remote before pushing:
+To check the configured remote and publish committed changes:
 
 ```powershell
-git remote set-url origin https://github.com/<account>/<portfolio-repository>.git
 git remote -v
 git status
 git push -u origin main

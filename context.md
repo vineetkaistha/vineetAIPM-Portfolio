@@ -31,8 +31,8 @@ the owner:
 
 ## Current repository: verified facts
 
-This repository is currently a small, dependency-free browser game project. It
-is not yet an AI product or a portfolio website.
+This repository currently contains small, dependency-free browser game
+projects. It is not yet an AI product or a portfolio website.
 
 ### Memory Game
 
@@ -53,6 +53,16 @@ is not yet an AI product or a portfolio website.
   best-score persistence, increasing speed, and responsive presentation.
 - `PRD_snake.md` documents its intended requirements and acceptance criteria.
 
+### Rock, Paper, Scissors
+
+- `rock-paper-scissors.html` is a standalone browser game against a randomly
+  choosing computer opponent.
+- Matches are first to three round wins; ties do not award points.
+- It uses native accessible buttons, responsive styling, and system light/dark
+  theme detection.
+- `PRD_rock_paper_scissors.md` documents its intended requirements and
+  acceptance criteria.
+
 ### Repository documentation
 
 - `README.md` explains how to open and play the games.
@@ -65,7 +75,7 @@ The game source and PRDs can demonstrate small-scale product definition,
 acceptance criteria, accessibility considerations, interaction design, and
 implementation constraints. They do not, on their own, establish:
 
-- That either game uses AI or machine learning.
+- That any of these games uses AI or machine learning.
 - Professional AI PM experience, team leadership, or production ownership.
 - User research, user counts, business impact, conversion, retention, or other
   outcome metrics.
